@@ -1,0 +1,140 @@
+.container {
+  float: center;
+  text-align: center;
+  width: auto;
+  box-shadow: 0 0 8px #666;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.input_box {
+  margin: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.input_style {
+  margin-top: 10px;
+  width: 400px;
+  height: 30px;
+  padding: 5px 10px;
+  border: solid 1px black;
+  border-radius: 20px;
+  font-size: medium;
+  background-color: #ffffff;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid #0059ff;
+  box-shadow: 0 0 8px #666;
+}
+
+.submit_button {
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  color: cornsilk;
+  background-color: #0077ff;
+  border-radius: 10px;
+  border: none;
+}
+.submit_button:hover {
+  background-color: black;
+}
+h2 {
+  border-bottom: 2px solid #666;
+  width: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(245, 255, 233);
+  color: #000;
+}
+
+/* The alert message box */
+.alert {
+  position: fixed;
+  z-index: 1;
+  left: 70%;
+  bottom: 30px;
+  width: 20%;
+  padding: 20px;
+  background-color: #058800; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+th {
+  background-color: #000f01;
+  color: white;
+  height: 30px;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5;}
+
+button{
+  width: 80px;
+  padding: 10px;
+}
+.edit{
+  margin-right: 4px;
+  background-color: blue;
+  border: none;
+  color: antiquewhite;
+}
+.delete{
+  background-color: rgb(255, 0, 0);
+  border: none;
+  color: antiquewhite;
+}
